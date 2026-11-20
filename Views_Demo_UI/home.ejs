@@ -1,0 +1,9 @@
+ADD : <a href="/addForm"> Add Empoyee </a>
+
+<ul>
+<% result.forEach( i => { %>
+ <li>
+    <%= i.name%> <%= i.salary%> <%= i.dept%>
+ </li>
+<% }) %>
+</ul>
